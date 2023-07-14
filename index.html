@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <section class="description">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </section>
+      <section class="form">
+        <div class="try__it">
+          Try it free 7 days <span class="try__it--price">then $20/mo. thereafter</span>
+        </div>
+        <form action="" autocomplete="off">
+
+          <fieldset class="fieldset--first__name">
+            <input id="first__name" class="input" name="first name" type="text">
+            <label for="first__name" class="label label--first__name">First Name</label>
+            <img class="error__icon error__icon--first__name" src="images/icon-error.svg" alt="error">
+            <span class="error__message error__message--first__name">
+              First Name cannot be empty
+            </span>
+          </fieldset>
+          
+          <fieldset class="fieldset--last__name">
+            <input id="last__name" class="input" name="last name" type="text">
+            <label for="last__name" class="label label--last__name">Last Name</label>
+            <img class="error__icon error__icon--last__name" src="images/icon-error.svg" alt="error">
+            <span class="error__message error__message--last__name">
+              Last Name cannot be empty
+            </span>
+          </fieldset>
+          
+          <fieldset class="fieldset--email">
+            <input id="email" class="input" name="email" type="email">
+            <label for="email" class="label label--email">Email Address</label>
+            <img class="error__icon error__icon--email" src="images/icon-error.svg" alt="error">
+            <span class="error__message error__message--email">
+              Looks like this is not an email
+            </span>
+          </fieldset>
+
+          <fieldset class="fieldset--password">
+            <input id="password" class="input" name="password" type="password">
+            <label for="password" class="label label--password">Password</label>
+            <img class="error__icon error__icon--password" src="images/icon-error.svg" alt="error">
+            <span class="error__message error__message--first__name">
+              Password cannot be empty
+            </span>
+          </fieldset>
+
+          <button class="submit" type="submit">Claim your free trial</button>
+          <p class="form--agree">
+            By clicking the button, you are agreeing to our <b>Terms and Services</b>
+          </p>
+
+        </form>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
