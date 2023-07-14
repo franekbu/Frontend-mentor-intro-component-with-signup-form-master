@@ -23,7 +23,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: 
-        url(images/bg-intro-desktop.png),
+        url(bg-intro-desktop.png),
         linear-gradient(var(--color-red),var(--color-red));
     display: grid;
     place-content: center;
